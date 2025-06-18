@@ -42,7 +42,7 @@ dependencies:
     # TFLite 运行时
   tflite_flutter: ^0.11.0
     # Helper 库，对应 tflite_flutter 0.11.x
-
+  image: ^3.3.0
 
 
 dev_dependencies:
@@ -72,6 +72,8 @@ flutter:
   assets:
      - assets/model8.tflite
      - assets/app_cover.png
+     - assets/model11.tflite
+     - assets/model7.tflite
   #   - images/a_dot_ham.jpeg
 flutter_icons:
   android: true            # 同時產生 Android icon
